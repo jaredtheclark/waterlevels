@@ -1,0 +1,35 @@
+{
+  "name": "river-levels-fix",
+  "version": "1.0.0",
+  "description": "A nuxt app that shows some river water levels.",
+  "author": "Jared Clark",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "nuxt": "^2.0.0",
+    "nuxt-edge": "^2.0.0-25624683.7a68e1d"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0"
+  }
+}
