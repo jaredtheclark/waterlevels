@@ -1,6 +1,6 @@
-# river-levels-fix
+# River Levels
 
-> A nuxt app that shows some river water levels.
+> A nuxt app that shows water levels at USGS sites across US States North America. Visit www.waterlevels.us to demo.
 
 ## Build Setup
 
